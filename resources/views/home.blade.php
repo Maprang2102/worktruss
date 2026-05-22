@@ -24,27 +24,27 @@
                         <div class="nk-sidebar-menu" data-simplebar>
                             <ul class="nk-menu">
                                 <li class="nk-menu-item">
-                                    <a href="html/hotel/index.html" class="nk-menu-link">
+                                    <a href="#aboutus" class="nk-menu-link">
                                         <span class="nk-menu-text ms-3">เกี่ยวกับเรา</span>
                                     </a>
                                 </li>
                                 <li class="nk-menu-item">
-                                    <a href="html/hotel/index.html" class="nk-menu-link">
+                                    <a href="#service" class="nk-menu-link">
                                         <span class="nk-menu-text ms-3">การบริการ</span>
                                     </a>
                                 </li>
                                 <li class="nk-menu-item">
-                                    <a href="html/hotel/index.html" class="nk-menu-link">
+                                    <a href="#segway" class="nk-menu-link">
                                         <span class="nk-menu-text ms-3">แนะนำ</span>
                                     </a>
                                 </li>
                                 <li class="nk-menu-item">
-                                    <a href="html/hotel/index.html" class="nk-menu-link">
+                                    <a href="#product" class="nk-menu-link">
                                         <span class="nk-menu-text ms-3">ข้อมูลผลิตภัณฑ์</span>
                                     </a>
                                 </li>
                                 <li class="nk-menu-item">
-                                    <a href="html/hotel/index.html" class="nk-menu-link">
+                                    <a href="#contact" class="nk-menu-link">
                                         <span class="nk-menu-text ms-3">ติดต่อเรา</span>
                                     </a>
                                 </li>
@@ -69,27 +69,27 @@
                                 </div>
                                 <div class="nk-header-news d-none d-lg-flex">
                                     <div class="nk-news-list mx-2">
-                                        <a class="nk-news-item" href="#">
+                                        <a class="nk-news-item" href="#aboutus">
                                             เกี่ยวกับเรา
                                         </a>
                                     </div>
                                     <div class="nk-news-list mx-2">
-                                        <a class="nk-news-item" href="#">
+                                        <a class="nk-news-item" href="#service">
                                             การบริการ
                                         </a>
                                     </div>
                                     <div class="nk-news-list mx-2">
-                                        <a class="nk-news-item" href="#">
+                                        <a class="nk-news-item" href="#segway">
                                             แนะนำ
                                         </a>
                                     </div>
                                     <div class="nk-news-list mx-2">
-                                        <a class="nk-news-item" href="#">
+                                        <a class="nk-news-item" href="#product">
                                             ข้อมูลผลิตภัณฑ์
                                         </a>
                                     </div>
                                     <div class="nk-news-list mx-2">
-                                        <a class="nk-news-item" href="#">
+                                        <a class="nk-news-item" href="#contact">
                                             ติดต่อเรา
                                         </a>
                                     </div>
@@ -109,31 +109,31 @@
                     <div class="slider">
                         <div class="slide-track">
                             <div class="slide">
-                                <img class="mx-3" src="{{ asset('image/logo-ruijie.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-tp-link.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-lenovo.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-schneider.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-jabra.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-fanvil.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-asus.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-hikvision.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-ruijie.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-tp-link.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-lenovo.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-schneider.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-jabra.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-fanvil.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-asus.png') }}" height="60px" alt="">
-                                <img class="mx-3" src="{{ asset('image/logo-hikvision.png') }}" height="60px" alt="">
+                                <img src="{{ asset('image/logo-ruijie.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-tp-link.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-lenovo.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-schneider.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-jabra.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-fanvil.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-asus.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-hikvision.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-ruijie.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-tp-link.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-lenovo.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-schneider.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-jabra.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-fanvil.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-asus.png') }}" height="50px" alt="">
+                                <img src="{{ asset('image/logo-hikvision.png') }}" height="50px" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="aboutus mt-5">
+                <div class="aboutus mt-5" id="aboutus">
                     <div class="row">
                         <div class="col-lg-3 p-0 flex-align-center" style="position: relative">
-                            <img src="{{ asset('image/about-me.png') }}" alt="">
+                            <img src="{{ asset('image/about-me.png') }}" alt="" class="about-img">
                         </div>
                         <div class="col-lg-8 mt-3 mt-lg-0">
                             <div class="container">
@@ -160,41 +160,47 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="row mt-3 g-3">
-                            <div class="col-lg-4 flex-align-center">
-                                <img class="icon-40 me-2" src="{{ asset('image/icon-network.png') }}" alt="">
-                                <span class="lh-1">ระบบเครือข่ายองค์กร <br> (Enterprise Network)</span>
-                            </div>
-                            <div class="col-lg-4 flex-align-center">
-                                <img class="icon-40 me-2" src="{{ asset('image/icon-wifi.png') }}" alt="">
-                                <span class="lh-1">ระบบ WiFi</span>
-                            </div>
-                            <div class="col-lg-4 flex-align-center">
-                                <img class="icon-40 me-2" src="{{ asset('image/icon-cctv.png') }}" alt="">
-                                <span class="lh-1">ระบบกล้องวงจรปิด (CCTV)</span>
-                            </div>
-                            <div class="col-lg-4 flex-align-center">
-                                <img class="icon-40 me-2" src="{{ asset('image/icon-battery.png') }}" alt="">
-                                <span class="lh-1">ระบบสำรองไฟฟ้า UPS และแบตเตอรี่</span>
-                            </div>
-                            <div class="col-lg-4 flex-align-center">
-                                <img class="icon-40 me-2" src="{{ asset('image/icon-condition.png') }}" alt="">
-                                <span class="lh-1">ระบบปรับอากาศสำหรับห้องอุปกรณ์ <br> (Precision Air Conditioning) </span>
-                            </div>
-                            <div class="col-lg-4 flex-align-center">
-                                <img class="icon-40 me-2" src="{{ asset('image/icon-room.png') }}" alt="">
-                                <span class="lh-1">ระบบห้องประชุม และโครงสร้างพื้นฐาน <br> ด้านเทคนิคที่เกี่ยวข้อง</span>
-                            </div>
+                </div>
+
+                <div class="container" id="service">
+                    <div class="row mt-3 g-3">
+                        <div class="col-lg-4 flex-align-center">
+                            <img class="icon-40 me-2" src="{{ asset('image/icon-network.png') }}" alt="">
+                            <span class="lh-1">ระบบเครือข่ายองค์กร <br> (Enterprise Network)</span>
+                        </div>
+                        <div class="col-lg-4 flex-align-center">
+                            <img class="icon-40 me-2" src="{{ asset('image/icon-wifi.png') }}" alt="">
+                            <span class="lh-1">ระบบ WiFi</span>
+                        </div>
+                        <div class="col-lg-4 flex-align-center">
+                            <img class="icon-40 me-2" src="{{ asset('image/icon-cctv.png') }}" alt="">
+                            <span class="lh-1">ระบบกล้องวงจรปิด (CCTV)</span>
+                        </div>
+                        <div class="col-lg-4 flex-align-center">
+                            <img class="icon-40 me-2" src="{{ asset('image/icon-battery.png') }}" alt="">
+                            <span class="lh-1">ระบบสำรองไฟฟ้า UPS และแบตเตอรี่</span>
+                        </div>
+                        <div class="col-lg-4 flex-align-center">
+                            <img class="icon-40 me-2" src="{{ asset('image/icon-condition.png') }}" alt="">
+                            <span class="lh-1">ระบบปรับอากาศสำหรับห้องอุปกรณ์ <br> (Precision Air Conditioning) </span>
+                        </div>
+                        <div class="col-lg-4 flex-align-center">
+                            <img class="icon-40 me-2" src="{{ asset('image/icon-room.png') }}" alt="">
+                            <span class="lh-1">ระบบห้องประชุม และโครงสร้างพื้นฐาน <br> ด้านเทคนิคที่เกี่ยวข้อง</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="service-img mt-5">
-                    <div class="d-flex justify-content-center mt-3">
+                    <div class="d-flex justify-content-center mt-3 d-none d-md-flex"">
                         <button class="btn btn-round btn-outline-red-cus m-1 active" id="btn-service0" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0">IT / CCTV / Network</button>
                         <button class="btn btn-round btn-outline-red-cus m-1" id="btn-service1" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">Power Systems</button>
                         <button class="btn btn-round btn-outline-red-cus m-1" id="btn-service2" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">AV & Conference Systems</button>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3 d-md-none">
+                        <button class="btn btn-round btn-outline-red-cus m-1 active" id="btn-mb-service0" data-bs-target="#carouselExampleIndicators-mb" data-bs-slide-to="0">IT / CCTV / Network</button>
+                        <button class="btn btn-round btn-outline-red-cus m-1" id="btn-mb-service1" data-bs-target="#carouselExampleIndicators-mb" data-bs-slide-to="1">Power Systems</button>
+                        <button class="btn btn-round btn-outline-red-cus m-1" id="btn-mb-service2" data-bs-target="#carouselExampleIndicators-mb" data-bs-slide-to="2">AV & Conference Systems</button>
                     </div>
                     <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block">
                         <div class="carousel-indicators" style="bottom: -50px">
@@ -223,7 +229,7 @@
                         </button>
                     </div>
                     <div id="carouselExampleIndicators-mb" class="carousel slide d-block d-md-none">
-                        <div class="carousel-indicators" style="bottom: -50px">
+                        <div class="carousel-indicators mb" style="bottom: -50px">
                             <button type="button" data-bs-target="#carouselExampleIndicators-mb" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators-mb" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators-mb" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -335,7 +341,7 @@
                     </div>
                 </div>
 
-                <div class="solutions text-center mt-5">
+                <div class="solutions text-center mt-5" id="segway">
                     <h1 class="text-topic-56">ADDITIONAL SOLUTIONS</h1>
                     <sapn class="text-detail">Specialized Mobility Solutions for Security & Patrol Operations</sapn> 
                     <br class="d-none d-lg-block">
@@ -368,12 +374,12 @@
                     </div>
                 </div>
 
-                <div class="product-card text-center pb-3 mt-5">
+                <div class="product-card text-center pb-3 mt-5" id="product">
                     <h1 class="text-topic-56">
                         Mobility Solutions
                     </h1>
                     <span class="text-detail">สำหรับงานปฏิบัติการ</span>
-                    <div class="container flex-justify-center text-start mt-3">
+                    <div class="container flex-justify-center text-start">
                         <div class="space-card" style="">
                         <div class="card">
                             <img src="{{ asset('image/off-road.png') }}" alt="" height="100%" style="object-fit: cover">
@@ -414,7 +420,7 @@
                     </div>
                 </div>
 
-                <div class="container contact mt-5">
+                <div class="container contact mt-5" id="contact">
                     <div class="row">
                         <div class="col-lg-5 px-3 px-md-0">
                             <h4 class="text-blue-cus">ติดต่อเรา</h4>
@@ -452,11 +458,11 @@
                         <div class="row">
                             <div class="col-lg-8">
                                 <div class="menu-footer">
-                                    <div class="me-3">เกี่ยวกับเรา</div>
-                                    <div class="me-3">การบริการ</div>
-                                    <div class="me-3">แนะนำ</div>
-                                    <div class="me-3">ข้อมูลผลิตภัณฑ์</div>
-                                    <div class="me-3">ติดต่อเรา</div>
+                                    <a class="me-3" href="#aboutus">เกี่ยวกับเรา</a>
+                                    <a class="me-3" href="#service">การบริการ</a>
+                                    <a class="me-3" href="#segway">แนะนำ</a>
+                                    <a class="me-3" href="#product">ข้อมูลผลิตภัณฑ์</a>
+                                    <a class="me-3" href="#contact">ติดต่อเรา</a>
                                 </div>
                             </div>
                             <div class="col-lg-4 mt-3 mt-lg-0">

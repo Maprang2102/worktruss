@@ -4,7 +4,10 @@ $('.service-img').on('click', function(){
     $("[id^='btn-service']").removeClass('active')
     var num = '#btn-service' + $('.carousel-indicators button.active').attr('data-bs-slide-to');
     $(num).toggleClass('active');
-    
+
+    $("[id^='btn-mb-service']").removeClass('active')
+    var num = '#btn-mb-service' + $('.carousel-indicators.mb button.active').attr('data-bs-slide-to');
+    $(num).toggleClass('active');
 })
 
 const observer = new IntersectionObserver(

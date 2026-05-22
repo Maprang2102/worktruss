@@ -114,6 +114,7 @@
                                 <img class="mx-3" src="{{ asset('image/logo-lenovo.png') }}" height="60px" alt="">
                                 <img class="mx-3" src="{{ asset('image/logo-schneider.png') }}" height="60px" alt="">
                                 <img class="mx-3" src="{{ asset('image/logo-jabra.png') }}" height="60px" alt="">
+                                <img class="mx-3" src="{{ asset('image/logo-fanvil.png') }}" height="60px" alt="">
                                 <img class="mx-3" src="{{ asset('image/logo-asus.png') }}" height="60px" alt="">
                                 <img class="mx-3" src="{{ asset('image/logo-hikvision.png') }}" height="60px" alt="">
                                 <img class="mx-3" src="{{ asset('image/logo-ruijie.png') }}" height="60px" alt="">
@@ -121,6 +122,7 @@
                                 <img class="mx-3" src="{{ asset('image/logo-lenovo.png') }}" height="60px" alt="">
                                 <img class="mx-3" src="{{ asset('image/logo-schneider.png') }}" height="60px" alt="">
                                 <img class="mx-3" src="{{ asset('image/logo-jabra.png') }}" height="60px" alt="">
+                                <img class="mx-3" src="{{ asset('image/logo-fanvil.png') }}" height="60px" alt="">
                                 <img class="mx-3" src="{{ asset('image/logo-asus.png') }}" height="60px" alt="">
                                 <img class="mx-3" src="{{ asset('image/logo-hikvision.png') }}" height="60px" alt="">
                             </div>

@@ -26,3 +26,23 @@ const observer = new IntersectionObserver(
 document.querySelectorAll('.animate-up').forEach((el) => {
     observer.observe(el);
 });
+
+var lightboxInlineIframe1 = GLightbox({
+    selector: '.glightbox1',
+    loop: true
+});
+
+var lightboxInlineIframe2 = GLightbox({
+    selector: '.glightbox2',
+    loop: true
+});
+
+var lightboxInlineIframe3 = GLightbox({
+    selector: '.glightbox3',
+    loop: true
+});
+
+var lightboxInlineIframe4 = GLightbox({
+    selector: '.glightbox4',
+    loop: true
+});

@@ -227,7 +227,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    height: 410px;
+    height: 400px;
     width: fit-content; 
     overflow-x: auto; 
     overflow-y: unset;
@@ -244,6 +244,10 @@ body {
     color: #000;
     box-shadow: 0px 4px 8.2px 0px #00000026;
     background: linear-gradient(180deg, #FFFFFF 45.62%, #F1F1F1 100%);
+
+    a {
+        color: #000;
+    }
 }
 
 .card:hover {
@@ -358,7 +362,27 @@ body {
     
     .info .blog {
         font-size: 8px;
-        min-height: auto;
+        min-height: 155px;
+    }
+
+    .info .blog.mb {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bg-ma {
+    background-image: url('/image/bg-info-ma-mb.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    }
+
+    .bg-onsite {
+        background-image: url('/image/bg-info-onsite-mb.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
     }
 
     .multi-area .row {

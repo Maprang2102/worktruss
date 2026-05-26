@@ -13,6 +13,8 @@
     <link id="skin-default" rel="stylesheet" href="./assets/css/theme.css?ver=3.2.3">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" type="text/css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 </head>
 
 <body class="nk-body bg-lighter npc-general has-sidebar ">
@@ -359,17 +361,17 @@
                         </div>
                         <div class="col-7 blog bg-ma" style="background-color: #2C3134; padding-right: 36px;">
                             <h3 class="text-topic-36 text-white">มั่นใจทุกการใช้งานด้วย<br>ประกัน 5 ปีเต็ม</h3>
-                            <span>หมดห่วงเรื่องจุกจิกด้วยแพ็กเกจบริการบำรุงรักษา (MA) <br class="d-none d-lg-block"> ดูแลเครื่องให้พร้อมใช้งานยาวนานถึง 5 ปี</span>
+                            <span>หมดห่วงเรื่องจุกจิกด้วยแพ็กเกจ<br class="d-block d-md-none"> บริการบำรุงรักษา (MA) <br> ดูแลเครื่องให้พร้อมใช้งาน<br class="d-block d-md-none">ยาวนานถึง 5 ปี</span>
                         </div>
                     </div>
                     <div class="row" style="justify-content: center">
-                        <div class="col-7 blog bg-onsite text-end text-black">
+                        <div class="col-7 blog bg-onsite text-end text-black mb">
                             <h3 class="text-topic-36 text-black">บริการ On-site<br> ด่วนภายใน <span class="text-red-cus">4</span> ชั่วโมง</h3>
-                            <span>สะดวกสบาย ไม่ต้องขนย้ายเครื่องเอง ด้วยทีมวิศวกร <br> ผู้เชี่ยวชาญที่พร้อมเข้าตรวจเช็กและ <br class="d-block d-sm-none"> แก้ไขปัญหาให้ถึงหน้างาน</span>
+                            <span>สะดวกสบายไม่ต้องขนย้ายเครื่องเอง<br class="d-block d-md-none"> ด้วยทีมวิศวกร<br class="d-none d-lg-block">ผู้เชี่ยวชาญที่พร้อมเข้า<br class="d-block d-md-none">ตรวจเช็กและแก้ไขปัญหาให้ถึงหน้างาน</span>
                         </div>
-                        <div class="col-4 blog" style="background-color: #D53A33">
+                        <div class="col-4 blog mb" style="background-color: #D53A33">
                             <h3 class="text-topic-36 text-white">ครอบคลุมทุกพื้นที่ด้วย<br class="d-none d-lg-block">บริการ NBD</h3>
-                            <span>ดูแลถึงที่ทุกพื้นที่ จัดส่งทีมช่างเข้าซ่อมบำรุงภายในวันทำการถัดไป (Next Business Day) พร้อมนัดหมายล่วงหน้า</span>
+                            <span>ดูแลถึงที่ทุกพื้นที่ จัดส่งทีมช่างเข้าซ่อมบำรุงภายในวันทำการถัดไป (Next Business Day) <br class="d-block d-md-none">พร้อมนัดหมายล่วงหน้า</span>
                         </div>
                     </div>
                 </div>
@@ -380,24 +382,80 @@
                     </h1>
                     <span class="text-detail">สำหรับงานปฏิบัติการ</span>
                     <div class="container flex-justify-center text-start">
-                        <div class="space-card" style="">
-                        <div class="card">
-                            <img src="{{ asset('image/off-road.png') }}" alt="" height="100%" style="object-fit: cover">
-                            <span class="mt-3">Off-Road ElectricSelf-Balancing <br> (20 inch)</span>
+                        <div class="space-card">
+                            <div class="card">
+                                <a href="{{ asset('image/off-road-d1.png') }}" class="glightbox1" data-glightbox="width: 700; height: auto;">
+                                    <img src="{{ asset('image/off-road.png') }}" alt="" height="100%" style="object-fit: cover">
+                                    <span class="mt-3">Off-Road ElectricSelf-Balancing <br> (20 inch)</span>
+                                </a>
+                            </div>
+                            <div class="card d-none">
+                                <a href="{{ asset('image/off-road-d2.png') }}" class="glightbox1" data-glightbox="width: 700; height: auto;">
+                                    <img src="{{ asset('image/off-road-d2.png') }}" alt="" height="100%" style="object-fit: cover">
+                                    <span class="mt-3">Off-Road ElectricSelf-Balancing <br> (20 inch)</span>
+                                </a>
+                            </div>
+                            <div class="card d-none">
+                                <a href="{{ asset('image/off-road-d3.png') }}" class="glightbox1" data-glightbox="width: 700; height: auto;">
+                                    <img src="{{ asset('image/off-road-d3.png') }}" alt="" height="100%" style="object-fit: cover">
+                                    <span class="mt-3">Off-Road ElectricSelf-Balancing <br> (20 inch)</span>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="{{ asset('image/city-road-d1.png') }}" class="glightbox2" data-glightbox="width: 700; height: auto;">
+                                    <img src="{{ asset('image/city-road.png') }}" alt="" height="100%" style="object-fit: cover">
+                                    <span class="mt-3">City-Road Electric Self Balancing <br> (18 inch)</span>
+                                </a>
+                            </div>
+                            <div class="card d-none">
+                                <a href="{{ asset('image/city-road-d2.png') }}" class="glightbox2" data-glightbox="width: 700; height: auto;">
+                                    <img src="{{ asset('image/city-road-d2.png') }}" alt="" height="100%" style="object-fit: cover">
+                                    <span class="mt-3">City-Road Electric Self Balancing <br> (18 inch)</span>
+                                </a>
+                            </div>
+                            <div class="card d-none">
+                                <a href="{{ asset('image/city-road-d3.png') }}" class="glightbox2" data-glightbox="width: 700; height: auto;">
+                                    <img src="{{ asset('image/city-road-d3.png') }}" alt="" height="100%" style="object-fit: cover">
+                                    <span class="mt-3">City-Road Electric Self Balancing <br> (18 inch)</span>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="{{ asset('image/patrol-p60-d1.png') }}" class="glightbox3" data-glightbox="width: 700; height: auto;">
+                                    <img src="{{ asset('image/patrol-p60.png') }}" alt="" height="100%" style="object-fit: cover">
+                                    <span class="mt-3">Patrol Electric P60/P60+ <br> (20 inch)</span>
+                                </a>
+                            </div>
+                            <div class="card d-none">
+                                <a href="{{ asset('image/patrol-p60-d2.png') }}" class="glightbox3" data-glightbox="width: 700; height: auto;">
+                                    <img src="{{ asset('image/patrol-p60-d2.png') }}" alt="" height="100%" style="object-fit: cover">
+                                    <span class="mt-3">Patrol Electric P60/P60+ <br> (20 inch)</span>
+                                </a>
+                            </div>
+                            <div class="card d-none">
+                                <a href="{{ asset('image/patrol-p60-d3.png') }}" class="glightbox3" data-glightbox="width: 700; height: auto;">
+                                    <img src="{{ asset('image/patrol-p60-d3.png') }}" alt="" height="100%" style="object-fit: cover">
+                                    <span class="mt-3">Patrol Electric P60/P60+ <br> (20 inch)</span>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="{{ asset('image/patrol-s60-d1.png') }}" class="glightbox4" data-glightbox="width: 700; height: auto;">
+                                    <img src="{{ asset('image/patrol-s60.png') }}" alt="" height="100%" style="object-fit: cover">
+                                    <span class="mt-3">Patrol Electric S60/S60+ <br> (18 inch)</span>
+                                </a>
+                            </div>
+                            <div class="card d-none">
+                                <a href="{{ asset('image/patrol-s60-d2.png') }}" class="glightbox4" data-glightbox="width: 700; height: auto;">
+                                    <img src="{{ asset('image/patrol-s60-d2.png') }}" alt="" height="100%" style="object-fit: cover">
+                                    <span class="mt-3">Patrol Electric S60/S60+ <br> (18 inch)</span>
+                                </a>
+                            </div>
+                            <div class="card d-none">
+                                <a href="{{ asset('image/patrol-s60-d3.png') }}" class="glightbox4" data-glightbox="width: 700; height: auto;">
+                                    <img src="{{ asset('image/patrol-s60-d3.png') }}" alt="" height="100%" style="object-fit: cover">
+                                    <span class="mt-3">Patrol Electric S60/S60+ <br> (18 inch)</span>
+                                </a>
+                            </div>
                         </div>
-                        <div class="card">
-                            <img src="{{ asset('image/city-road.png') }}" alt="" height="100%" style="object-fit: cover">
-                            <span class="mt-3">City-Road Electric Self Balancing <br> (18 inch)</span>
-                        </div>
-                        <div class="card">
-                            <img src="{{ asset('image/patrol-p60.png') }}" alt="" height="100%" style="object-fit: cover">
-                            <span class="mt-3">Patrol Electric P60/P60+ <br> (20 inch)</span>
-                        </div>
-                        <div class="card">
-                            <img src="{{ asset('image/patrol-s60.png') }}" alt="" height="100%" style="object-fit: cover">
-                            <span class="mt-3">Patrol Electric S60/S60+ <br> (18 inch)</span>
-                        </div>
-                    </div>
                     </div>
                 </div>
 

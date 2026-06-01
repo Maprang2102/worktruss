@@ -114,10 +114,14 @@ html {
 
 body {
   font-family: "kanit";
+  letter-spacing: 0.3px;
   font-size: 16px;
   color: #000;
   font-weight: 400;
-  background-color: #ffffff;
+}
+
+.bg-lighter {
+  background-color: #ffffff !important;
 }
 
 .nk-sidebar.is-dark {
@@ -132,11 +136,13 @@ body {
 .text-blue-cus {
   font-family: "kanit";
   color: #185493;
+  letter-spacing: 0.5px;
 }
 
 .text-red-cus {
   font-family: "kanit";
   color: #E72327;
+  letter-spacing: 0.5px;
 }
 
 .nk-header-custom {
@@ -161,6 +167,7 @@ body {
   background-size: cover;
   background-position: bottom;
   height: 50vh;
+  min-height: 550px;
 }
 
 .slider {
@@ -212,12 +219,14 @@ body {
   color: #185493;
   font-weight: 600;
   font-family: "kanit";
+  letter-spacing: 0.5px;
 }
 
 .text-topic-36 {
   font-weight: 500;
   font-family: "kanit";
   line-height: 40px;
+  letter-spacing: 0.5px;
 }
 
 .icon-40 {
@@ -251,6 +260,7 @@ body {
   border: #E72327 solid 1px;
   color: #E72327;
   cursor: default !important;
+  background-color: #ffffff;
 }
 
 .btn-outline-red-cus:hover {
@@ -336,7 +346,7 @@ body {
   padding: 20px;
   height: -moz-fit-content;
   height: fit-content;
-  min-width: 276px;
+  min-width: 290px;
   margin: 5px;
   margin-top: 10px !important;
   color: #000;
@@ -416,7 +426,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
   }
-  h1.text-topic-56 {
+  h2.text-topic-56 {
     font-size: 20px;
   }
   .aboutus .about-img {
@@ -438,6 +448,9 @@ body {
   }
   .text-detail {
     font-size: 12px;
+  }
+  .text-thai {
+    font-size: 10px;
   }
   .info .text-topic-36 {
     font-size: 12px;

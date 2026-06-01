@@ -67,7 +67,8 @@
                             <div class="nk-header-tools">
                                 <div class="nk-menu-trigger d-lg-none ms-n1">
                                     <a href="#" class="nk-nav-toggle nk-quick-nav-icon"
-                                        data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                                        data-target="sidebarMenu"><em class="icon ni ni-menu"></em>
+                                    </a>
                                 </div>
                                 <div class="nk-header-news d-none d-lg-flex">
                                     <div class="nk-news-list mx-2">
@@ -103,7 +104,7 @@
                 
                 <div class="header flex-align-center">
                     <div class="container flex-justify-center">
-                        <img src="{{ asset('image/logo-header.png') }}" alt="">
+                        <img src="{{ asset('image/logo-header.png') }}" alt="" class="w-70">
                     </div>
                 </div>
 
@@ -140,11 +141,11 @@
                         <div class="col-lg-8 mt-3 mt-lg-0">
                             <div class="container">
                                 <div class="row mb-3 mb-lg-0">
-                                    <h1 class="text-topic-56">เกี่ยวกับเรา</h1>
+                                    <h2 class="text-topic-56">เกี่ยวกับเรา</h2>
                                 </div>
                                 <div class="row">
                                     <div class="col ms-3" style="border-left:1px solid #99999940">
-                                        <b class="text-blue-cus">WORK</b><b class="text-red-cus">TRUSS</b> เป็นผู้ให้บริการด้านโครงสร้างพื้นฐานระบบเทคโนโลยีสารสนเทศ (IT Infrastructure) 
+                                        <b class="text-red-cus">WORK</b><b class="text-blue-cus">TRUSS</b> เป็นผู้ให้บริการด้านโครงสร้างพื้นฐานระบบเทคโนโลยีสารสนเทศ (IT Infrastructure) 
                                         ระบบเครือข่าย (Network Systems) ระบบไฟฟ้าและพลังงาน (Power Systems) รวมถึงงาน
                                         บริการด้านเทคนิค สำหรับองค์กรภาคเอกชนและหน่วยงานภาครัฐ
                                         <br>
@@ -167,27 +168,27 @@
                 <div class="container" id="service">
                     <div class="row mt-3 g-3">
                         <div class="col-lg-4 flex-align-center">
-                            <img class="icon-40 me-2" src="{{ asset('image/icon-network.png') }}" alt="">
+                            <img class="icon-40 me-2" src="{{ asset('image/icon-network-1.png') }}" alt="">
                             <span class="lh-1">ระบบเครือข่ายองค์กร <br> (Enterprise Network)</span>
                         </div>
                         <div class="col-lg-4 flex-align-center">
-                            <img class="icon-40 me-2" src="{{ asset('image/icon-wifi.png') }}" alt="">
+                            <img class="icon-40 me-2" src="{{ asset('image/icon-wifi-1.png') }}" alt="">
                             <span class="lh-1">ระบบ WiFi</span>
                         </div>
                         <div class="col-lg-4 flex-align-center">
-                            <img class="icon-40 me-2" src="{{ asset('image/icon-cctv.png') }}" alt="">
+                            <img class="icon-40 me-2" src="{{ asset('image/icon-cctv-1.png') }}" alt="">
                             <span class="lh-1">ระบบกล้องวงจรปิด (CCTV)</span>
                         </div>
                         <div class="col-lg-4 flex-align-center">
-                            <img class="icon-40 me-2" src="{{ asset('image/icon-battery.png') }}" alt="">
+                            <img class="icon-40 me-2" src="{{ asset('image/icon-battery-1.png') }}" alt="">
                             <span class="lh-1">ระบบสำรองไฟฟ้า UPS และแบตเตอรี่</span>
                         </div>
                         <div class="col-lg-4 flex-align-center">
-                            <img class="icon-40 me-2" src="{{ asset('image/icon-condition.png') }}" alt="">
+                            <img class="icon-40 me-2" src="{{ asset('image/icon-condition-1.png') }}" alt="">
                             <span class="lh-1">ระบบปรับอากาศสำหรับห้องอุปกรณ์ <br> (Precision Air Conditioning) </span>
                         </div>
                         <div class="col-lg-4 flex-align-center">
-                            <img class="icon-40 me-2" src="{{ asset('image/icon-room.png') }}" alt="">
+                            <img class="icon-40 me-2" src="{{ asset('image/icon-room-1.png') }}" alt="">
                             <span class="lh-1">ระบบห้องประชุม และโครงสร้างพื้นฐาน <br> ด้านเทคนิคที่เกี่ยวข้อง</span>
                         </div>
                     </div>
@@ -344,10 +345,12 @@
                 </div>
 
                 <div class="solutions text-center mt-5" id="segway">
-                    <h1 class="text-topic-56">ADDITIONAL SOLUTIONS</h1>
-                    <sapn class="text-detail">Specialized Mobility Solutions for Security & Patrol Operations</sapn> 
-                    <br class="d-none d-lg-block">
-                    <span class="text-detail">โซลูชันเพื่อเพิ่มความคล่องตัวสำหรับงานรักษาความปลอดภัยและการปฏิบัติงานภาคสนาม</span> 
+                    <h2 class="text-topic-56">ADDITIONAL SOLUTIONS</h2>
+                    <span class="text-detail" style="line-height: normal">
+                        Specialized Mobility Solutions for Security & Patrol Operations 
+                        <br>
+                        <span class="text-thai">โซลูชันเพื่อเพิ่มความคล่องตัวสำหรับงานรักษาความปลอดภัยและการปฏิบัติงานภาคสนาม</span>
+                    </span> 
                     <br>
                     <img src="{{ asset('image/solution.png') }}" alt="" class="container d-none d-md-block">
                     <img src="{{ asset('image/solution-mb.png') }}" alt="" class="container d-block d-md-none">
@@ -356,30 +359,30 @@
                 <div class="container info mt-5">
                     <div class="row" style="justify-content: center">
                         <div class="col-4 blog" style="background-color: #29548E">
-                            <h3 class="text-topic-36 text-white">เสริมภาพลักษณ์<br class="d-none d-lg-block">องค์กรแบบมืออาชีพ</h3>
+                            <h4 class="text-topic-36 text-white">เสริมภาพลักษณ์<br class="d-none d-lg-block">องค์กรแบบมืออาชีพ</h4>
                             <span>บริการติดสติกเกอร์ตราสัญลักษณ์หน่วยงานบนรถ Segway Plus ช่วยสะท้อนเอกลักษณ์และความเป็นมืออาชีพ</span>
                         </div>
                         <div class="col-7 blog bg-ma" style="background-color: #2C3134; padding-right: 36px;">
-                            <h3 class="text-topic-36 text-white">มั่นใจทุกการใช้งานด้วย<br>ประกัน 5 ปีเต็ม</h3>
+                            <h4 class="text-topic-36 text-white">มั่นใจทุกการใช้งานด้วย<br>ประกัน 5 ปีเต็ม</h4>
                             <span>หมดห่วงเรื่องจุกจิกด้วยแพ็กเกจ<br class="d-block d-md-none"> บริการบำรุงรักษา (MA) <br> ดูแลเครื่องให้พร้อมใช้งาน<br class="d-block d-md-none">ยาวนานถึง 5 ปี</span>
                         </div>
                     </div>
                     <div class="row" style="justify-content: center">
                         <div class="col-7 blog bg-onsite text-end text-black mb">
-                            <h3 class="text-topic-36 text-black">บริการ On-site<br> ด่วนภายใน <span class="text-red-cus">4</span> ชั่วโมง</h3>
+                            <h4 class="text-topic-36 text-black">บริการ On-site<br> ด่วนภายใน <span class="text-red-cus">4</span> ชั่วโมง</h4>
                             <span>สะดวกสบายไม่ต้องขนย้ายเครื่องเอง<br class="d-block d-md-none"> ด้วยทีมวิศวกร<br class="d-none d-lg-block">ผู้เชี่ยวชาญที่พร้อมเข้า<br class="d-block d-md-none">ตรวจเช็กและแก้ไขปัญหาให้ถึงหน้างาน</span>
                         </div>
                         <div class="col-4 blog mb" style="background-color: #D53A33">
-                            <h3 class="text-topic-36 text-white">ครอบคลุมทุกพื้นที่ด้วย<br class="d-none d-lg-block">บริการ NBD</h3>
+                            <h4 class="text-topic-36 text-white">ครอบคลุมทุกพื้นที่ด้วย<br class="d-none d-lg-block">บริการ NBD</h4>
                             <span>ดูแลถึงที่ทุกพื้นที่ จัดส่งทีมช่างเข้าซ่อมบำรุงภายในวันทำการถัดไป (Next Business Day) <br class="d-block d-md-none">พร้อมนัดหมายล่วงหน้า</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="product-card text-center pb-3 mt-5" id="product">
-                    <h1 class="text-topic-56">
+                    <h2 class="text-topic-56">
                         Mobility Solutions
-                    </h1>
+                    </h2>
                     <span class="text-detail">สำหรับงานปฏิบัติการ</span>
                     <div class="container flex-justify-center text-start">
                         <div class="space-card">
@@ -460,9 +463,9 @@
                 </div>
 
                 <div class="multi-area text-center mt-5 py-5">
-                    <h1 class="text-topic-56" onclick="test()">
+                    <h2 class="text-topic-56" onclick="test()">
                         รองรับการปฏิบัติงานในหลากหลายพื้นที่
-                    </h1>
+                    </h2>
                     <span class="text-detail">เพิ่มความสะดวก รวดเร็ว และประสิทธิภาพในการดูแลพื้นที่</span>
                     <div class="container justify-content-center">
                         <div class="row mt-3">
@@ -518,8 +521,8 @@
                                 <div class="menu-footer">
                                     <a class="me-3" href="#aboutus">เกี่ยวกับเรา</a>
                                     <a class="me-3" href="#service">การบริการ</a>
-                                    <a class="me-3" href="#segway">แนะนำ</a>
-                                    <a class="me-3" href="#product">ข้อมูลผลิตภัณฑ์</a>
+                                    {{-- <a class="me-3" href="#segway">แนะนำ</a>
+                                    <a class="me-3" href="#product">ข้อมูลผลิตภัณฑ์</a> --}}
                                     <a class="me-3" href="#contact">ติดต่อเรา</a>
                                 </div>
                             </div>
